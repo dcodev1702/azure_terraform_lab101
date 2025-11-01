@@ -118,7 +118,7 @@ Edit `terraform.tfvars` with your specific values:
 
 ```hcl
 # Network configuration
-virtual_network_address_space = ["10.0.0.0/22"]  # Minimum /22 required
+virtual_network_address_space  = ["10.0.0.0/16"]  # Minimum /22 required
 virtual_network_address_name   = "vnet-demo-dev"
 virtual_network_subnet_name    = "subnet-demo-dev"
 
