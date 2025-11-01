@@ -84,8 +84,8 @@ This Terraform configuration deploys a comprehensive Azure infrastructure using 
 
 ```bash
 # Option 1: Clone via Git
-git clone <repository-url>
-cd <repository-name>
+git clone https://github.com/dcodev1702/azure_terraform_lab101.git
+cd azure_terraform_lab101
 
 # Option 2: Download ZIP
 # Download and extract the repository ZIP file
