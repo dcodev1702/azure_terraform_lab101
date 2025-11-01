@@ -67,6 +67,10 @@ This Terraform configuration deploys a comprehensive Azure infrastructure using 
    - Visual Studio Code with extensions:
      - HashiCorp Terraform (`hashicorp.terraform`)
      - Azure Terraform (`ms-azuretools.vscode-azureterraform`)
+   ```powershell
+     code --install-extension "hashicorp.terraform"
+     code --install-extension "ms-azuretools.vscode-azureterraform"
+   ```
 
 ### Knowledge Prerequisites
 - Basic familiarity with programming concepts
