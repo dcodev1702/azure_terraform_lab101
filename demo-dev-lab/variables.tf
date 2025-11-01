@@ -1,17 +1,14 @@
 variable "name_prefix" {  
     description = "Prefix for the name of the resources"  
     type        = string  
-    default     = "dco"
 }
 variable "location" {  
     description = "The Azure location to deploy the resources"
     type        = string  
-    default     = "canadacentral"
 }
 variable "rgname" {  
     description = "The name of the resource group"  
     type        = string  
-    default     = "rg-demo-dev"
 }
 variable "virtual_network_address_space" {
     description = "The CIDR prefix for the virtual network. This should be at least a /22. Example 10.0.0.0/22"
@@ -40,4 +37,5 @@ variable "tags" {
 variable "log_analytics_workspace_name" {
     description = "The Log Analytics Workspace Name"
     type        = string
+
 }
