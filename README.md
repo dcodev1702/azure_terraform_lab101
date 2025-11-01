@@ -205,12 +205,12 @@ terraform apply destroyplan
 
 | Module | Version | Purpose |
 |--------|---------|---------|
-| Azure/avm-res-resources-resourcegroup/azurerm | 0.2.1 | Resource Group management |
-| Azure/avm-utl-network-ip-addresses/azurerm | 0.1.0 | IP address calculation utility |
-| Azure/avm-res-network-virtualnetwork/azurerm | 0.15.0 | Virtual Network and Subnets |
-| Azure/avm-res-network-privatednszone/azurerm | 0.4.0 | Private DNS Zone |
-| Azure/avm-res-storage-storageaccount/azurerm | 0.6.4 | Storage Account with private endpoints |
-| Azure/avm-res-operationalinsights-workspace/azurerm | 0.4.2 | Log Analytics Workspace |
+| [Azure/avm-res-resources-resourcegroup/azurerm](https://registry.terraform.io/modules/Azure/avm-res-resources-resourcegroup/azurerm/latest) | 0.2.1 | Resource Group management |
+| [Azure/avm-utl-network-ip-addresses/azurerm](https://registry.terraform.io/modules/Azure/avm-utl-network-ip-addresses/azurerm/latest) | 0.1.0 | IP address calculation utility |
+| [Azure/avm-res-network-virtualnetwork/azurerm](https://registry.terraform.io/modules/Azure/avm-res-network-virtualnetwork/azurerm/latest) | 0.15.0 | Virtual Network and Subnets |
+| [Azure/avm-res-network-privatednszone/azurerm](https://registry.terraform.io/modules/Azure/avm-res-network-privatednszone/azurerm/latest) | 0.4.0 | Private DNS Zone |
+| [Azure/avm-res-storage-storageaccount/azurerm](https://registry.terraform.io/modules/Azure/avm-res-storage-storageaccount/azurerm/latest) | 0.6.4 | Storage Account with private endpoints |
+| [Azure/avm-res-operationalinsights-workspace/azurerm](https://registry.terraform.io/modules/Azure/avm-res-operationalinsights-workspace/azurerm/latest) | 0.4.2 | Log Analytics Workspace |
 
 ### Finding Additional Modules
 1. Search the Terraform Registry: https://registry.terraform.io/search/modules?q=avm
