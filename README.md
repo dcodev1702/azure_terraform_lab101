@@ -53,6 +53,11 @@ This Terraform configuration deploys a comprehensive Azure infrastructure using 
 1. **Terraform CLI**
    - Version 1.10 or higher
    - Installation: `winget install hashicorp.terraform` (Windows) or [download](https://www.terraform.io/downloads)
+   ```powershell
+     $PathValue = [System.Environment]::GetEnvironmentVariable("PATH", [System.EnvironmentVariableTarget]::Machine)
+     $NewPath = $PathValue.Replace(";C:\Terraform","")
+     [System.Environment]::SetEnvironmentVariable("PATH", $NewPath, [System.EnvironmentVariableTarget]::Machine)
+   ```
 
 2. **Azure CLI**
    - Latest version for authentication
