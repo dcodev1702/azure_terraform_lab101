@@ -98,7 +98,6 @@ module "log_analytics_workspace" {
   tags     = var.tags
 }
 
-
 locals {
   diagnostic_settings = {
     sendToLogAnalytics = {
